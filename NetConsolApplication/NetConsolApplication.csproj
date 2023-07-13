@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="RocketMQ-Client" />
+    <None Remove="NewLife.RocketMQ" />
+    <None Remove="Newtonsoft.Json" />
+    <None Remove="System.Configuration.ConfigurationManager" />
+    <None Remove="System.Reflection.Emit" />
+    <None Remove="rocketmq-client-dotnet" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="NewLife.RocketMQ" Version="2.1.2022.1008" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2-beta2" />
+    <PackageReference Include="RocketMQ-Client" Version="1.0.1" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="7.0.0-rc.2.22472.3" />
+    <PackageReference Include="System.Reflection.Emit" Version="4.7.0" />
+    <PackageReference Include="rocketmq-client-dotnet" Version="0.1.2" />
+  </ItemGroup>
+</Project>
